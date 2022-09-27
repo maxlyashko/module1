@@ -27,9 +27,9 @@ public class Main {
         int resX = Math.abs ( startRow - finalRow );
         int resY = Math.abs ( startColumn - finalColunm );
         if (resX == 1 && resY == 2 || resX == 2 && resY == 1 ) {
-            System.out.println ("yes" );
+            System.out.println ("move is possible" );
         } else {
-            System.out.println ("no" );
+            System.out.println ("impossible move" );
         }
     }
 }
